@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Streetview")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd4583ae982de13fd88130d66e759cffaa5cb0df")]
 [assembly: System.Reflection.AssemblyProductAttribute("Streetview")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Streetview")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

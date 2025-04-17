@@ -13,3 +13,4 @@ C:\Users\Frastiwi\Downloads\Streetview\Streetview\obj\Debug\net6.0-windows\ref\S
 C:\Users\Frastiwi\Downloads\Streetview\Streetview\bin\Debug\net6.0-windows\Images\streetview_icon.png
 C:\Users\Frastiwi\Downloads\Streetview\Streetview\bin\Debug\net6.0-windows\ProjNET.dll
 C:\Users\Frastiwi\Downloads\Streetview\Streetview\obj\Debug\net6.0-windows\Streetview.csproj.Up2Date
+C:\Users\Frastiwi\Downloads\Streetview\Streetview\obj\Debug\net6.0-windows\Streetview.sourcelink.json
