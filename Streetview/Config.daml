@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ArcGIS defaultAssembly="Streetview.dll"
+        defaultNamespace="Streetview"
+        xmlns="http://schemas.esri.com/DADF/Registry"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+.
+
+  <AddInInfo id="{e570e32c-46a9-47bd-bdfb-fe48393b1bfb}" version="1.0" desktopVersion="3.0.36056">
+    <Name>Streetview</Name>   
+    <Description>Streetview description</Description>
+    <Image>Images\streetview_icon.png</Image>
+    <Author>Frastiwi</Author>
+    <Company>Acme</Company>
+    <Date>4/17/2025 12:13:37 PM</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+
+  <modules>
+    <insertModule id="Streetview_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+		  <tab id="Streetview_Tab1" caption="New Tab">
+			  <group refID="Streetview_Group1"/>
+		  </tab>
+      </tabs>
+              
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+		  <group id="Streetview_Group1" caption="Street View" appearsOnAddInTab="false">
+			  <tool refID="Streetview_Tool"/>
+		  </group>
+		  <!-- host controls within groups -->
+      </groups>
+      
+      <controls>
+			  <tool id="Streetview_Tool" className="StreetviewTool"
+					loadOnClick="true"
+					smallImage="Images\streetview_icon.png"
+					largeImage="Images\streetview_icon.png"
+					caption="Street View Tool"
+					tooltip="Click a point on map to open Street View"/>
+	  </controls> 
+      
+    </insertModule>
+  </modules>
+</ArcGIS>

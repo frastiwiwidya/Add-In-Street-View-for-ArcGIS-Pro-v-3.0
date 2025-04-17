@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "EKlFRGob5yw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Frastiwi\\Downloads\\Streetview\\Streetview\\Streetview.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Frastiwi\\.nuget\\packages\\projnet\\2.0.0\\projnet.2.0.0.nupkg.sha512",
+    "C:\\Users\\Frastiwi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Frastiwi\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Frastiwi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Frastiwi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Frastiwi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
