@@ -7,10 +7,28 @@ A custom ArcGIS Pro Add-In that allows users to open Google Street View directly
 
 🚀 Features
 - Open **Google Street View** with a single click on a feature layer
-- Supports **WGS 84 (UTM Zone 48S)** projection (customizable)
 - Lightweight and fast integration with ArcGIS Pro
 - Customizable tool name and UI using `Config.daml`
 
+📥 Quick Download & Installation
+> No need to build from source — just download and install the Add-In directly:
+👉 [Download Streetview.esriAddinX](github.com/frastiwiwidya/Add-In-Street-View-for-ArcGOS-Pro-v-3.0/Streetview/bin/Release/net6.0-windows/Streetview.esriAddinX)
+
+🛠️ Installation Steps:
+1. Double-click the `Streetview.esriAddinX` file, or
+2. Open ArcGIS Pro → `Add-In Manager` → `Options` → Add the Add-In manually.
+
+
+💻 For Developers (Manual Build)
+> If you want to build the Add-In from source:
+1. Clone the repository
+```bash
+git clone github.com/frastiwiwidya/Add-In-Street-View-for-ArcGOS-Pro-v-3.0/Streetview/bin/Release/net6.0-windows/Streetview.esriAddinX
+```
+2. Open the solution (Streetview.sln) in Visual Studio 2022.
+3. Build the project in Release mode.
+4. The compiled .esriAddInX file will appear in the bin\Release folder.
+5. Double-click the Add-In or install it via ArcGIS Pro → Add-In Manager.
 
 🛠 Requirements
 - ArcGIS Pro 3.0
@@ -19,15 +37,6 @@ A custom ArcGIS Pro Add-In that allows users to open Google Street View directly
   - .NET Framework 4.8
 - Internet connection (to open Street View)
 
-
-📦 Installation
-1. Clone the repository:
-   ```bash
-   git clone github.com/frastiwiwidya/Add-In-Street-View-for-ArcGOS-Pro-v-3.0/Streetview/bin/Release/net6.0-windows/Streetview.esriAddinX
-2. Open the solution (Streetview.sln) in Visual Studio 2022.
-3. Build the project in Release mode.
-4. The compiled .esriAddInX file will appear in the bin\Release folder.
-5. Double-click the Add-In or install it via ArcGIS Pro → Add-In Manager.
 
 🧪 How to Use
 1. Open ArcGIS Pro and load a map with a feature layer (points recommended).
