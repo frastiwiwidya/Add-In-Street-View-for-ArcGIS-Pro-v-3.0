@@ -23,7 +23,7 @@ A custom ArcGIS Pro Add-In that allows users to open Google Street View directly
 📦 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/frastiwiwidya/Add-In-Street-View-for-ArcGIS-Pro-v-3.0.git
+   git clone github.com/frastiwiwidya/Add-In-Street-View-for-ArcGOS-Pro-v-3.0/Streetview/bin/Release/net6.0-windows/Streetview.esriAddinX
 2. Open the solution (Streetview.sln) in Visual Studio 2022.
 3. Build the project in Release mode.
 4. The compiled .esriAddInX file will appear in the bin\Release folder.
