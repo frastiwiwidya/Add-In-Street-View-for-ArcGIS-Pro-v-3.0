@@ -9,7 +9,9 @@
 		<NoWarn>CA1416</NoWarn>
 	</PropertyGroup>
 
-	
+	<ItemGroup>
+		<None Remove="Images\streetview_icon.png" />
+	</ItemGroup>
 
 	<!-- Bagian resources (Config + Icons) -->
 	<ItemGroup>
@@ -105,6 +107,12 @@
 			<CopyLocal>False</CopyLocal>
 			<Private>False</Private>
 		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Images\streetview_icon.png">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
 	</ItemGroup>
 
 	<Import Project="C:\Program Files\ArcGIS\Pro\bin\Esri.ProApp.SDK.Desktop.targets" Condition="Exists('C:\Program Files\ArcGIS\Pro\bin\Esri.ProApp.SDK.Desktop.targets') AND !Exists('Esri.ArcGISPro.Extensions.targets')" />
