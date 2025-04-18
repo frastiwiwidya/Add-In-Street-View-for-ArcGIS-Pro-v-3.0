@@ -5,7 +5,7 @@ A custom ArcGIS Pro Add-In that allows users to open **Google Street View** dire
 > 🎯 Developed using **ArcGIS Pro SDK for .NET (v3.0)** and **Visual Studio 2022**  
 > 🗺️ Ideal for quick visual inspection of geographic features.
 
----
+
 
 ## 🚀 Features
 
@@ -13,7 +13,6 @@ A custom ArcGIS Pro Add-In that allows users to open **Google Street View** dire
 - Lightweight and fast integration with ArcGIS Pro  
 - Customizable tool name and UI via `Config.daml`
 
----
 
 ## 📥 Quick Download & Installation
 
@@ -26,12 +25,10 @@ A custom ArcGIS Pro Add-In that allows users to open **Google Street View** dire
 1. Double-click the `Streetview.esriAddinX` file  
 2. Or open ArcGIS Pro → `Add-In Manager` → `Options` → Add the Add-In manually
 
----
+
 
 ## 💻 For Developers (Build from Source)
-
 If you want to build the Add-In manually from the source code:
-
 ### 🔧 Steps
 1. Clone the repository
 ```bash
@@ -55,11 +52,11 @@ git clone https://github.com/frastiwiwidya/Add-In-Street-View-for-ArcGIS-Pro-v-3
 2. Activate the Street View Tool from the Add-In tab.
 3. Click on any feature → Your default browser will open Google Street View for that location.
 
-##📍 Coordinate Note
+## 📍 Coordinate Note
 Ensure your features are in the correct coordinate system (e.g., WGS 84 UTM Zone 48S) to ensure accurate Street View results. Coordinates are automatically projected to WGS84 (lat/lon) using ArcGIS SDK.
 
 
-##📄 License
+## 📄 License
 This project is licensed under the Apache 2.0 License
 
 🙋‍♀️ Author
